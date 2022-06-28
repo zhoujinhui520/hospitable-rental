@@ -18,7 +18,7 @@ const routes = [
       { path: 'home', component: Home },
       { path: 'lookingRoom', component: LookingRoom },
       { path: 'news', component: News },
-      { path: 'my', component: My }
+      { path: 'my', component: My, name: 'my' }
     ]
   },
   { path: '/login', component: Login }
