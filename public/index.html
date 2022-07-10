@@ -7,6 +7,17 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   <body>
+    <!-- 1. 得有一个百度账号 申请一个ak (浏览器端) 开启白名单 * -->
+    <script
+      defer
+      type="text/javascript"
+      src="https://api.map.baidu.com/getscript?type=webgl&v=1.0&ak=ZQxH1xKGYAFS1T02RdTCaA3nMN7GRQ2Q"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://api.map.baidu.com/res/webgl/10/bmap.css"
+    />
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

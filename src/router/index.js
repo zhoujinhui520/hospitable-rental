@@ -6,6 +6,9 @@ const LookingRoom = () => import('@/views/LookingRoom')
 const My = () => import('@/views/My')
 const News = () => import('@/views/News')
 const Login = () => import('@/views/Login')
+const Rent = () => import('@/views/Rent')
+const City = () => import('@/views/City')
+const Map = () => import('@/views/Map')
 
 Vue.use(VueRouter)
 
@@ -21,7 +24,10 @@ const routes = [
       { path: 'my', component: My, name: 'my' }
     ]
   },
-  { path: '/login', component: Login }
+  { path: '/login', component: Login, name: 'login' },
+  { path: '/rent', component: Rent, name: 'rent' },
+  { path: '/city', component: City, name: 'city' },
+  { path: '/map', component: Map, name: 'map' }
 ]
 
 const router = new VueRouter({

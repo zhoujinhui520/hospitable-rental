@@ -48,7 +48,7 @@ export default {
   created () { },
   data () {
     return {
-      username: 'heima',
+      username: 'zhoujinhui',
       password: '123456'
     }
   },
